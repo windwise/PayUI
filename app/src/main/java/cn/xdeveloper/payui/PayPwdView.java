@@ -161,7 +161,7 @@ public class PayPwdView extends View {
         final int width = getWidth() - 2;
         final int height = getHeight() - 2;
         //先画个圆角矩形
-        mRoundRect.set(0, 0, width, height);
+        mRoundRect.set(2, 2, width, height);
         canvas.drawRoundRect(mRoundRect, 0, 0, mBorderPaint);
         //画分割线
         for (int i = 1; i < count; i++) {
